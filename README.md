@@ -4,4 +4,4 @@
 ### code quality  CodeClimate 
 [![Maintainability](https://api.codeclimate.com/v1/badges/3ea042a1ba826083f530/maintainability)](https://codeclimate.com/github/Dfen90/frontend-project-44/maintainability)
 
-[![asciinema recording](https://asciinema.org/a/iScScy3wDyRjlVxh55GwjUB9I.svg(https://asciinema.org/a/iScScy3wDyRjlVxh55GwjUB9I```
+[![asciicast](https://asciinema.org/a/iScScy3wDyRjlVxh55GwjUB9I.svg)](https://asciinema.org/a/iScScy3wDyRjlVxh55GwjUB9I)`
