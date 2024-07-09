@@ -9,8 +9,9 @@
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "./src/games/brain-even.js",
-    "brain-calc": "bin/brain-calc.js"
+    "brain-even": "src/games/brain-even.js",
+    "brain-calc": "bin/brain-calc.js",
+    "brain-gcd": "bin/brain-gcd.js"
   },
   "author": "",
   "license": "ISC",

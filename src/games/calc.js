@@ -1,14 +1,38 @@
-import runGame from '../index.js';
-import { getRandomInt, getRandomOperator } from '../utils.js';
+import { getRandomInt, runGame } from '../index.js';
 
-const gameDescription = 'What is the result of the expression?';
-const gameData = () => {
-  const number1 = getRandomInt(1, 50);
-  const number2 = getRandomInt(1, 50);
-  const operator = getRandomOperator();
-  const question = `${number1} ${operator} ${number2}`;
-  const correctAnswer = String(eval(question));
-  return { question, correctAnswer };
+const calculate = (operation, value1, value2) => {
+  switch (operation) {
+    case '+':
+      return value1 + value2;
+    case '-':
+      return value1 - value2;
+    case '*':
+      return value1 * value2;
+    default:
+      throw new Error(`operation '${operation}' is not defined`);
+  }
 };
 
-export default () => runGame(gameDescription, gameData);
+const generateQuestionAndAnswer = () => {
+  const operations = ['+', '-', '*'];
+  const operationIndex = getRandomInt(operations.length);
+
+  const addMaxValue = 100;
+  const multMaxValue = 25;
+  const maxValue = (operationIndex < 2) ? addMaxValue : multMaxValue;
+
+  const num1 = getRandomInt(maxValue);
+  const num2 = getRandomInt(maxValue);
+
+  const question = `Question: ${num1} ${operations[operationIndex]} ${num2}!`;
+  const correctAnswer = calculate(operations[operationIndex], num1, num2).toString();
+
+  return [question, correctAnswer];
+};
+
+const runCalcGame = () => {
+  const rulesMessage = 'What is the result of the expression?';
+  runGame(rulesMessage, generateQuestionAndAnswer);
+};
+
+export default runCalcGame;

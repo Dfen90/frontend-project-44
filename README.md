@@ -29,6 +29,8 @@ $ brain-even
 
 ## Игра: "Калькулятор"
 
+Пользователю показывается случайное математическое выражение, например 35 + 16, которое нужно вычислить и записать правильный ответ.
+
 ### Запуск игры
 
 ```
@@ -37,3 +39,16 @@ $ brain-calc
 
 #### Пример игры
 [![asciicast](https://asciinema.org/a/Bge6wIozfFl38o9vfXVAyPcIl.svg)](https://asciinema.org/a/Bge6wIozfFl38o9vfXVAyPcIl)
+
+## Игра: "Наибольший общий делитель (НОД)"
+
+Пользователю показывается два случайных числа, например, 25 50. Пользователь должен вычислить и ввести наибольший общий делитель этих чисел.
+
+### Запуск игры
+
+```
+$ brain-gcd
+```
+
+#### Пример игры 
+[![asciicast](https://asciinema.org/a/QEPE5JdymsYmRArv9ODcyl2N7.svg)](https://asciinema.org/a/QEPE5JdymsYmRArv9ODcyl2N7)
