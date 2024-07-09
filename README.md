@@ -66,3 +66,16 @@ $ brain-progression
 
 #### Пример игры
 [![asciicast](https://asciinema.org/a/I7rujHZuM4ek5sNCRlcxv1ZbX.svg)](https://asciinema.org/a/I7rujHZuM4ek5sNCRlcxv1ZbX)
+
+
+## Игра "Простое ли число?"
+
+
+### Запуск игры
+
+```
+$ brain-prime
+```
+
+#### Пример игры
+[![asciicast](https://asciinema.org/a/v8YG4CgmKjwwGgxYi2N2XKP4J.svg)](https://asciinema.org/a/v8YG4CgmKjwwGgxYi2N2XKP4J)
