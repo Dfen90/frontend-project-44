@@ -1,12 +1,14 @@
-### Hexlet tests and linter status:
-[![Actions Status](https://github.com/Dfen90/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dfen90/frontend-project-44/actions)
+# Тесты 
 
-### code quality  CodeClimate 
-[![Maintainability](https://api.codeclimate.com/v1/badges/3ea042a1ba826083f530/maintainability)](https://codeclimate.com/github/Dfen90/frontend-project-44/maintainability)
+### Hexlet tests and linter status:
+[![Actions Status](https://github.com/Dfen90/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dfen90/frontend-project-44/actions) - Тесты Хекслета и статус линтера.
+
+### Сode quality  CodeClimate 
+[![Maintainability](https://api.codeclimate.com/v1/badges/3ea042a1ba826083f530/maintainability)](https://codeclimate.com/github/Dfen90/frontend-project-44/maintainability) Оценка ремонтопригодности от Codeclimate.
 
 # Игры разума (JavaScript)
 
-«Игры разума» — набор из пяти консольных игр.
+«Игры разума» — набор из пяти консольных игр, построенных по принципу популярных мобильных приложений для прокачки мозга. каждая игра задает вопросы, на которые нужно дать четкие ответы. После трех ошибочных ответов считается, что игра пройдена. Неправильный ответ завершает игру.
 
 ## Установка
 
@@ -70,6 +72,7 @@ $ brain-progression
 
 ## Игра "Простое ли число?"
 
+Определить, простое ли число?
 
 ### Запуск игры
 

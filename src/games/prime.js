@@ -1,18 +1,23 @@
-import { getRandomInt, runGame } from '../index.js';
+import { getRandomInt } from '../utils.js';
+import { runGame } from '../index.js';
 
 const isPrime = (num) => {
-    if (num < 2) return false;
-    for (let i = 2; i <= Math.sqrt(num); i += 1) {
-      if (num % i === 0) return false;
+  if (num <= 1) {
+    return false;
+  }
+  for (let i = 2; i <= Math.sqrt(num); i += 1) {
+    if (num % i === 0) {
+      return false;
     }
-    return true;
-  };
+  }
+  return true;
+};
   
   const generateQuestionAndAnswer = () => {
     const maxValue = 1000;
     const num = getRandomInt(maxValue);
   
-    const question = `Question: ${num}!`;
+    const question = `Question: ${num}`;
     const correctAnswer = (isPrime(num)) ? 'yes' : 'no';
   
     return [question, correctAnswer];

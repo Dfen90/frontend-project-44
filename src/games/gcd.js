@@ -1,4 +1,5 @@
-import { getRandomInt, runGame } from '../index.js';
+import { getRandomInt } from '../utils.js';
+import { runGame } from '../index.js';
 
 const calcGcd = (num1, num2) => {
   const minValue = Math.min(num1, num2);
