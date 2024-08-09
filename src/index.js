@@ -8,7 +8,6 @@ const runGame = (rulesMessage, generateQuestionAndAnswer) => {
   console.log(`Hello, ${name}!`);
   console.log(rulesMessage);
 
-  
   for (let i = 0; i < tries; i += 1) {
     const [question, correctAnswer] = generateQuestionAndAnswer();
     console.log(question);
