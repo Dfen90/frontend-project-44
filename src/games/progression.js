@@ -1,4 +1,5 @@
-import { getRandomInt, runGame } from '../index.js';
+import { getRandomInt } from '../utils.js';
+import { runGame } from '../index.js';
 
 const generateProgression = (length, start, step) => {
     return Array.from({ length }, (_, i) => start + i * step);
