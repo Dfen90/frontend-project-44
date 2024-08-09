@@ -2,14 +2,14 @@
   "name": "@hexlet/code",
   "type": "module",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/Dfen90/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/Dfen90/frontend-project-44/actions)",
+  "description": "Mind Games is a project set of five console games based on the principle of popular mobile applications for brain pumping. My game asks questions that need to be answered clearly",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
     "brain-games": "bin/brain-games.js",
-    "brain-even": "src/games/brain-even.js",
+    "brain-even": "bin/brain-even.js",
     "brain-calc": "bin/brain-calc.js",
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
