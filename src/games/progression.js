@@ -2,7 +2,7 @@ import { getRandomInt } from '../utils.js';
 import { runGame } from '../index.js';
 
 const generateProgression = (length, start, step) =>
-  Array.from({ length }, (_, i) => start + i * step);
+  Array.from({length}, (_, i) => start + i * step);
   
 const hideElement = (progression, index) => {
   const newProgression = [...progression];
@@ -19,7 +19,7 @@ const generateQuestionAndAnswer = () => {
   const correctAnswer = progression[hiddenIndex].toString();
   const questionProgression = hideElement(progression, hiddenIndex);
   
-  const question = `Question: ${ questionProgression.join(' ') }`;
+  const question = `Question: ${questionProgression.join(' ')}`;
   return [question, correctAnswer];
   };
   

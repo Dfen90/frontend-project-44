@@ -10,7 +10,7 @@ const generateQuestionAndAnswer = () => {
   const maxValue = 100;
   const num = getRandomInt(maxValue);
 
-  const question = `Question: ${ num }`;
+  const question = `Question: ${num}`;
   const correctAnswer = isEven(num) ? 'yes' : 'no';
 
   return [question, correctAnswer];

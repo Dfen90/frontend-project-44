@@ -17,7 +17,7 @@ const generateQuestionAndAnswer = () => {
   const num1 = getRandomInt(maxValue) + 1;
   const num2 = getRandomInt(maxValue) + 1;
 
-  const question = `Question: ${ num1 } ${ num2 }`;
+  const question = `Question: ${num1} ${num2}`;
   const correctAnswer = calcGcd(num1, num2).toString();
 
   return [question, correctAnswer];

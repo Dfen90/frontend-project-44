@@ -25,7 +25,7 @@ const generateQuestionAndAnswer = () => {
   const num1 = getRandomInt(maxValue);
   const num2 = getRandomInt(maxValue);
 
-  const question = `Question: ${ num1 } ${ operations[operationIndex] } ${ num2 }`;
+  const question = `Question: ${num1} ${operations[operationIndex]} ${num2}`;
   const correctAnswer = calculate(operations[operationIndex], num1, num2).toString();
 
   return [question, correctAnswer];
