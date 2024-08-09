@@ -29,3 +29,4 @@ const isPrime = (num) => {
   };
 
   export default runPrimeGame;
+  

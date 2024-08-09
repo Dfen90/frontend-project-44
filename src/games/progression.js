@@ -20,7 +20,7 @@ const generateProgression = (length, start, step) => {
     const correctAnswer = progression[hiddenIndex].toString();
     const questionProgression = hideElement(progression, hiddenIndex);
   
-    const question = `Question: ${questionProgression.join(' ')}`;
+    const question = `Question: ${ questionProgression.join(' ') }`;
     return [question, correctAnswer];
   };
   
@@ -30,3 +30,4 @@ const generateProgression = (length, start, step) => {
   };
   
   export default runProgressionGame;
+  

@@ -10,7 +10,7 @@ const calculate = (operation, value1, value2) => {
     case '*':
       return value1 * value2;
     default:
-      throw new Error(`operation '${operation}' is not defined`);
+      throw new Error(`operation '${ operation }' is not defined`);
   }
 };
 
@@ -25,7 +25,7 @@ const generateQuestionAndAnswer = () => {
   const num1 = getRandomInt(maxValue);
   const num2 = getRandomInt(maxValue);
 
-  const question = `Question: ${num1} ${operations[operationIndex]} ${num2}`;
+  const question = `Question: ${ num1 } ${ operations[operationIndex] } ${ num2 }`;
   const correctAnswer = calculate(operations[operationIndex], num1, num2).toString();
 
   return [question, correctAnswer];
