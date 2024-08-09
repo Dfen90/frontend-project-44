@@ -29,4 +29,3 @@ const runPrimeGame = () => {
 };
 
 export default runPrimeGame;
-

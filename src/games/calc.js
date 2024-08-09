@@ -10,7 +10,7 @@ const calculate = (operation, value1, value2) => {
     case '*':
       return value1 * value2;
     default:
-      throw new Error(`operation '${ operation }' is not defined`);
+      throw new Error(`operation '${operation}' is not defined`);
   }
 };
 
