@@ -1,5 +1,5 @@
 import { getRandomInt } from '../utils.js';
-import { runGame } from '../index.js';
+import runGame from '../index.js';
 
 const isPrime = (num) => {
   if (num <= 1) {
@@ -28,4 +28,4 @@ const runPrimeGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export { runPrimeGame };
+export default runPrimeGame;

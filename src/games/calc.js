@@ -1,5 +1,5 @@
 import { getRandomInt } from '../utils.js';
-import { runGame } from '../index.js';
+import runGame from '../index.js';
 
 const calculate = (operation, value1, value2) => {
   switch (operation) {
@@ -36,4 +36,4 @@ const runCalcGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export { runCalcGame };
+export default runCalcGame;
