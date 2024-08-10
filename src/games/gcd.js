@@ -28,4 +28,4 @@ const runGcdGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export default runGcdGame;
+export { runGcdGame };

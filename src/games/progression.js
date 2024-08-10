@@ -28,4 +28,4 @@ const runProgressionGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export default runProgressionGame;
+export { runProgressionGame };

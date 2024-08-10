@@ -24,4 +24,4 @@ const runGame = (rulesMessage, generateQuestionAndAnswer) => {
   console.log(`Congratulations, ${name}!`);
 };
 
-export default runGame;
+export { runGame };

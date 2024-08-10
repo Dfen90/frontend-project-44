@@ -36,4 +36,4 @@ const runCalcGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export default runCalcGame;
+export { runCalcGame };

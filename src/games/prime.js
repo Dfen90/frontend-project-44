@@ -28,4 +28,4 @@ const runPrimeGame = () => {
   runGame(rulesMessage, generateQuestionAndAnswer);
 };
 
-export default runPrimeGame;
+export { runPrimeGame };
